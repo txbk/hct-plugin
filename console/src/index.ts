@@ -10,14 +10,14 @@ export default definePlugin({
       parentName: "Root",
       route: {
         path: "/example",
-        name: "Example",
+        name: "HctPlugin",
         component: HomeView,
         meta: {
-          title: "示例页面",
+          title: "火车头插件配置",
           searchable: true,
           menu: {
-            name: "示例页面",
-            group: "示例分组",
+            name: "插件配置",
+            group: "火车头",
             icon: markRaw(IconPlug),
             priority: 0,
           },
